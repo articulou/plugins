@@ -13,6 +13,7 @@ O conector Articulou (ferramentas `articulou_*`) tem o resultado oficial do TSE 
 2. **Escolha a ferramenta pela pergunta:**
    - marca ou máquina? → `articulou_tipo_partido`
    - quanto teve, a série de votos e % → `articulou_urna`; por local de votação e por seção → `articulou_local`
+   - quem foi mais votado num local de votação ou numa zona (e em cada seção) → `articulou_local` sem partido nem pessoa, com o local (ou a zona), o cargo e o ano
    - por que perdeu ou ganhou votos; quem saiu, ficou, entrou → `articulou_ponte`
    - quem leva o mapa ao trocar de partido (dono do voto) → `articulou_donos_do_voto`, nos dois sentidos (saiu e chegou)
    - a base de vereadores passou voto ao deputado → `articulou_passagem` (e `articulou_grupos`)
