@@ -1,0 +1,15 @@
+{
+  "name": "articulou",
+  "description": "Os plugins do Articulou: um por organização, cada um com o conector da sua instância e a skill que faz o Claude usar o Articulou sozinho em pergunta eleitoral sobre SP.",
+  "owner": {
+    "name": "Articulou",
+    "url": "https://articulou.com"
+  },
+  "plugins": [
+    {
+      "name": "articulou-uniao",
+      "source": "./plugins/articulou-uniao",
+      "description": "União Brasil em SP: o conector uniao.articulou.com e a skill eleicoes-sp."
+    }
+  ]
+}

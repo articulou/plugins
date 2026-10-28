@@ -1,0 +1,8 @@
+{
+  "mcpServers": {
+    "articulou": {
+      "type": "http",
+      "url": "https://uniao.articulou.com/_mcp"
+    }
+  }
+}
