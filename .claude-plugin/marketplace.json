@@ -9,7 +9,7 @@
     {
       "name": "articulou-uniao",
       "source": "./plugins/articulou-uniao",
-      "description": "União Brasil em SP: o conector uniao.articulou.com e a skill eleicoes-sp."
+      "description": "União Brasil: o conector uniao.articulou.com e a skill eleicoes-sp."
     }
   ]
 }
