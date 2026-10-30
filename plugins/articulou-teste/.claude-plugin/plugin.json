@@ -1,7 +1,7 @@
 {
   "name": "articulou-teste",
   "displayName": "Articulou — União Brasil (teste)",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "Análise do voto em São Paulo com os dados do TSE (2000 a 2026): quem levou e quem perdeu voto, por partido, pessoa, zona, local de votação e seção. O conector dá os números; a skill ensina o Claude a usá-lo sozinho em toda pergunta eleitoral sobre SP.",
   "author": {
     "name": "Articulou",

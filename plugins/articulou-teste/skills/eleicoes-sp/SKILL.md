@@ -14,6 +14,7 @@ O conector Articulou (ferramentas `articulou_*`) tem o resultado oficial do TSE 
    - marca ou máquina? → `articulou_tipo_partido`
    - quanto teve, a série de votos e % → `articulou_urna`; por local de votação e por seção → `articulou_local`
    - quem foi mais votado num local de votação ou numa zona (e em cada seção) → `articulou_local` sem partido nem pessoa, com o local (ou a zona), o cargo e o ano
+   - o voto para prefeito (só o 1º turno; peça `cargo: prefeito`, que não entra por padrão) → `articulou_urna` (o município, a série) e `articulou_local` (local a local: sem partido, pessoa, local nem zona, o município inteiro traz os mais votados de cada local; com partido, a série do partido por local)
    - por que perdeu ou ganhou votos; quem saiu, ficou, entrou → `articulou_ponte`
    - quem leva o mapa ao trocar de partido (dono do voto) → `articulou_donos_do_voto`, nos dois sentidos (saiu e chegou)
    - a base de vereadores passou voto ao deputado → `articulou_passagem` (e `articulou_grupos`)
@@ -29,6 +30,7 @@ O conector Articulou (ferramentas `articulou_*`) tem o resultado oficial do TSE 
 - para onde vai o voto de destino grande e espalhado (é *não identificável*);
 - a pessoa a partir do lugar: o mapa mede o lugar, não o eleitor;
 - "transferiu N votos" (diga *passagem associada*), ou a causa (fundo, chapa, prefeito): os dados não trazem;
-- "a emenda trouxe X votos" ou "o voto custou R$ X".
+- "a emenda trouxe X votos" ou "o voto custou R$ X";
+- o 2º turno de prefeito: o Articulou só tem o 1º turno.
 
 Se o conector recusar o pedido (partido, cargo, ano ou recorte fora do medido), diga o que não está medido e o que responderia (pesquisa, campo). Não invente número.
