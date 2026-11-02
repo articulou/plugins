@@ -12,7 +12,7 @@ O conector Articulou (ferramentas `articulou_*`) tem o resultado oficial do TSE 
 1. **Antes da primeira resposta da conversa, chame `articulou_guia`.** Ele traz a ordem das perguntas, a base de conhecimento (o que já se sabe sobre cada partido) e como ler cada ferramenta. Se o conector não estiver ligado na conversa, peça ao usuário para ligá-lo no menu de ferramentas (`+` → Conectores → Articulou) e, se for a primeira vez, para conectá-lo na aba Conectores do plugin.
 2. **Escolha a ferramenta pela pergunta:**
    - marca ou máquina? → `articulou_tipo_partido`
-   - quanto teve, a série de votos e % → `articulou_urna`; por local de votação e por seção → `articulou_local`
+   - quanto teve, a série de votos e % → `articulou_urna`; vários municípios numa chamada (uma lista de nomes, ou `recorte: "municipios"` para todos os 645) → `articulou_urna`, a série de cada município por página (até 15, o que cabe em 80 KB por resposta), e a lista inteira com `formato: csv`; por local de votação e por seção → `articulou_local`
    - quem foi mais votado num local de votação ou numa zona (e em cada seção) → `articulou_local` sem partido nem pessoa, com o local (ou a zona), o cargo e o ano
    - o voto para prefeito (só o 1º turno; peça `cargo: prefeito`, que não entra por padrão) → `articulou_urna` (o município, a série) e `articulou_local` (local a local: sem partido, pessoa, local nem zona, o município inteiro traz os mais votados de cada local; com partido, a série do partido por local); e também `articulou_ponte` (`cargos: prefeito`), `articulou_donos_do_voto` (`cargo: prefeito`) e `articulou_sobreposicao` (`cargo_a` ou `cargo_b: prefeito`)
    - por que perdeu ou ganhou votos; quem saiu, ficou, entrou → `articulou_ponte`
