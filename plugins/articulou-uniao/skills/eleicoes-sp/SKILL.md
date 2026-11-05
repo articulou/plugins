@@ -21,6 +21,7 @@ O conector Articulou (ferramentas `articulou_*`) tem o resultado oficial do TSE 
    - onde no território o voto mudou → `articulou_variacao`
    - dois nomes (ou um nome e um partido, ou dois partidos) têm o mesmo eleitorado, no mesmo ano ou entre anos e cargos → `articulou_sobreposicao` (`ano`, ou `ano_a` e `ano_b`; `cargo_a`, `cargo_b`; `partido_a`, `partido_b`)
    - quantos o partido elegeu, a bancada, as cadeiras (federal, Alesp, vereadores, prefeitos), quem ganhou a prefeitura em cada cidade → `articulou_eleitos` (os eleitos do TSE por partido, cargo e ano; no prefeito, peça `cargo: prefeito`: só o 1º turno, o 2º turno fica fora, com o vencedor do 1º turno de cada município e quem foi ao 2º)
+   - os votos de um grupo do grafo (a tag) ou de uma pessoa (o título) no território, numa eleição: por município, zona, local de votação, distrito, bairro ou seção, a urna a urna e o mapa → `articulou_votos_territorio` (um ano por chamada; os votos de cada eleição por zona são uma chamada por ano)
    - a carreira de uma pessoa → `articulou_pessoa`
    - dinheiro: `articulou_financas_campanha`, `articulou_candidaturas`, `articulou_verba` (quanto entrou e de quem, nunca quanto voto rendeu)
    - relatório, dashboard ou gráfico → `articulou_abrir_app` / `articulou_editar_app` / `articulou_publicar_app` (o kit em `articulou_conhecimento`, recurso *fazer-apps*)
