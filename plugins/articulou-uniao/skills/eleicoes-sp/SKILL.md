@@ -25,7 +25,7 @@ O conector Articulou (ferramentas `articulou_*`) tem o resultado oficial do TSE 
    - a carreira de uma pessoa → `articulou_pessoa`
    - dinheiro: `articulou_financas_campanha`, `articulou_candidaturas`, `articulou_verba` (quanto entrou e de quem, nunca quanto voto rendeu)
    - relatório, dashboard ou gráfico → `articulou_abrir_app` / `articulou_editar_app` / `articulou_publicar_app` (o kit em `articulou_conhecimento`, recurso *fazer-apps*)
-3. **Responda em português**, começando pela resposta em uma frase com o número e a faixa. Diga a classe e o motivo com as palavras da ferramenta (a favor, contra, inconclusivo, não compara, não identificável). Cite a fonte e a data de cada número.
+3. **Responda em português**, começando pela resposta em uma frase com o número e a faixa. Diga a classe e o motivo com as palavras da ferramenta (a favor, contra, inconclusivo, não compara, não identificável). Cite a fonte e a data de cada número. Quando a resposta nomeia pessoas, traga o partido de hoje de cada uma, ao lado do da época: o `partido_hoje` da `articulou_candidaturas` (o da `articulou_pessoa` é só o nome de hoje do partido da época).
 
 ## Nunca afirme
 
