@@ -1,6 +1,6 @@
 # Articulou
 
-Análise do voto em São Paulo a partir dos dados públicos do TSE, de 2000 a 2026, para analistas e dirigentes de partido.
+Análise do voto em São Paulo a partir dos dados públicos do TSE, de 2012 a 2026, para analistas e dirigentes de partido.
 
 ## Use
 
